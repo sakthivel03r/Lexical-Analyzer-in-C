@@ -1,0 +1,126 @@
+-----------------------------------------------------------------------------------------------------------------|
+
+📘 Lexical Analyzer in C
+📌 Project Overview
+
+This project is a Lexical Analyzer implemented in C that scans and analyzes a given C source file to identify and classify various lexical tokens. It simulates the first phase of a compiler, known as Lexical Analysis, by reading the input file character by character and categorizing tokens such as keywords, identifiers, constants, operators, symbols, comments, strings, and brackets. The analyzer also provides real-time error detection with compiler-style error messages and line tracking.
+
+-----------------------------------------------------------------------------------------------------------------|
+
+🎯 Objectives
+
+To design and implement a lexical analyzer using C.
+
+To identify and classify different types of tokens from a C source file.
+
+To detect common lexical errors and report them with line numbers.
+
+To understand the internal working of a compiler’s lexical analysis phase.
+
+-----------------------------------------------------------------------------------------------------------------|
+
+⚙️ Features
+
+Detection and classification of:
+
+Keywords
+
+Identifiers
+
+Numerical constants (Integer, Float, Hexadecimal, Binary, Octal)
+
+Character constants
+
+String literals
+
+Operators
+
+Symbols
+
+Single-line and multi-line comments
+
+Brackets ( (), {}, [] )
+
+Preprocessor directive handling
+
+Line number tracking for accurate error reporting
+
+Detection of mismatched brackets
+
+Compiler-style syntax error output with visual indicators
+
+Colored terminal output for better readability
+
+Modular design using multiple source files
+
+-----------------------------------------------------------------------------------------------------------------|
+
+🚨 Error Detection
+
+The analyzer detects and reports the following errors:
+
+Unterminated strings
+
+Unterminated comments
+
+Invalid operators
+
+Invalid numeric suffixes
+
+Multi-character character constants
+
+Stray symbols
+
+Mismatched brackets
+
+Each error is displayed with:
+
+File name
+
+Line number
+
+Error description
+
+Caret (^) pointer with highlighted token
+
+-----------------------------------------------------------------------------------------------------------------|
+
+🛠️ Technologies Used
+
+C Programming Language
+
+Structures (struct)
+
+Enumerations (enum)
+
+File Handling (fopen, fgetc, ungetc, fclose)
+
+Character Handling (isalpha, isdigit, isalnum)
+
+String Handling (strlen, strcmp, strchr, memset)
+
+ANSI Color Codes
+
+Modular Programming using Header Files
+
+-----------------------------------------------------------------------------------------------------------------|
+
+📤 Output
+
+Displays:
+
+Token type and token value
+
+Compiler-style error messages if any
+
+Shows:
+
+Line numbers
+
+Token classification
+
+Bracket matching
+
+Colored output for better clarity
+
+-----------------------------------------------------------------------------------------------------------------|
